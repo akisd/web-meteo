@@ -236,7 +236,7 @@
 									if (isset($_SESSION['mint']) ) {
 								//echo $min_temp;
 								?>	
-								<h3>ΘΕΡΜΟΤΗΤΑ</h3>
+								<h3>ΘΕΡΜΟΚΡΑΣΙΑ</h3>
 								<ul>
 									<li>ΕΛΑΧΙΣΤΗ: <?php echo $_SESSION['mint'] ; ?>&degC</li>
 									<li>ΜΕΣΗ: <?php echo $avg_temp; ?>&degC</li>
